@@ -1,6 +1,5 @@
 import random
 from seleccion import seleccion
-from operadores import generar_nueva_poblacion 
 
 
 #Funcion para generar a un individuo en un array #

@@ -29,10 +29,10 @@ def porcentaje_unos_mejor_individuo(poblacion):
 def algoritmo_genetico(
     num_individuos=100,
     num_genes=10,
-    umbral=6,
+    umbral=20,
     prob_mutacion=0.01,
     max_iter=300,
-    porcentaje_objetivo=0.9
+    porcentaje_objetivo=1.0
 ):
     poblacion = generar_poblacion(num_individuos, num_genes)
     guardar_poblacion(poblacion, archivo="poblacion_0.txt")
